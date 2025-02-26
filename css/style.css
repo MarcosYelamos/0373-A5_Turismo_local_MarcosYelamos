@@ -148,7 +148,7 @@ body {
     padding-right: 22%;
     padding-bottom: 2%;
     
-}
+} 
 
 .textn {
     font-size: 0.9rem;
@@ -158,12 +158,12 @@ body {
     padding: 5%;
     
 
-}
+} 
 
 .notiweb {
     text-decoration: none;
     color: white;
-}
+} 
 
 .amplio {
     font-size: 0.9rem;
@@ -173,4 +173,25 @@ body {
 .tn {
     margin-left: 2%;
     margin-right: 2%;
+}
+
+.lugar {
+    clear: both;
+}
+
+@media (max-width: 700px) {
+   .column25{
+    width: 100%;
+   }
+
+   .column50 {
+    width: 100%;
+   }
+
+   .column25s{
+    width: 100%;
+   }
+   .imgcard {
+    min-height: 50vh;
+   }
 }
