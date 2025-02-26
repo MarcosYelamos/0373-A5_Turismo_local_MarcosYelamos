@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- Primera columna, menu de navegacion-->
     <aside class="column25">
         <h1 class="titulo1">MENÚ DE NAVEGACIÓN</h1>
         <section>
@@ -20,16 +21,18 @@
             </nav>
 
             <nav class="barra rojo">
-                <div class="espacio" ><a class="link" href="#lucena">MAPS DE LUCENA</a></div>
+                <div class="espacio" ><a class="link" href="#maps">MAPS DE LUCENA</a></div>
             </nav>
 
             <nav class="barra lila">
-                <div class="espacio" ><a class="link" href="#lucena">NOTICIAS</a></div>
+                <div class="espacio" ><a class="link" href="#noticias">NOTICIAS</a></div>
             </nav>
 
-        <section>
+        </section>
     </aside>
-
+    
+    <!-- Segunda columna, contenido principal-->
+     <!-- Galeria de imagenes-->
     <main class="column50">
         <h1 id="lucena" class="titulo2">LUCENA</h1>
 
@@ -56,28 +59,89 @@
 
         </section>
 
-        <div>
+        <!-- Lugares de interes-->
+        <div class="lugar">
             <h3 id="lugares" class="titulo3">Lugares de interés</h3>
         </div>
         
         <section>
             <div class="column50">
                 <div class="card">
-
-
+                    <h5 class="tcard">La necrópolis judía de Lucena</h5>
+                    <img class="imgcard" src="./img/necropolis.jpg" alt=">Foto de la necropolis judia">
+                    <p class="textcard">Lucena destaca por su necrópolis judía, descubierta en 2006 
+                        con la lápida del rabí Lactosus. Con 396 tumbas, es el mayor cementerio judío de España. 
+                        La presencia de un gigante de 2.2 metros añade singularidad al sitio. Desde su apertura en 2013, 
+                        atrae a turistas sefardís(descendientes de los judíos) de todo el mundo, consolidando a Lucena como
+                        un destino cultural fascinante.
+                    </p>
+                    <p class="textl"><a class="loca" href="https://maps.app.goo.gl/o6aLbfwPNqe6Y37UA">📍 Localización</a></p>
+                    
                 </div>
 
             </div>
 
             <div class="column50">
-
+                <div class="card">
+                    <h5 class="tcard">Plaza Nueva</h5>
+                    <img class="imgcard" src="./img/plaza.jpg" alt=">Foto de la Plaza nueva">
+                    <p class="textcard">La Plaza Nueva, el corazón de Lucena, tiene su origen en 1620, dos años después de que 
+                        el rey Felipe III concediera a la ciudad el estatus de ciudad. A lo largo de los años, esta emblemática plaza 
+                        ha llevado diferentes nombres, como plaza real, de la República, de la Constitución, de Alfonso XII, del Generalísimo, 
+                        pero siempre ha conservado su identidad principal como la Plaza Nueva. Su rica historia y variedad de denominaciones 
+                        reflejan la evolución y la importancia duradera de este lugar en la vida de la ciudad.
+                    </p>
+                    <p class="textl"><a class="loca" href="https://maps.app.goo.gl/GqsrhVrqi9PtyCZW9">📍 Localización</a></p>
+                    
+                </div>
 
             </div>
 
+            <div class="column50">
+                <div class="card">
+                    <h5 class="tcard">Palacio de los Condes de Santa Ana</h5>
+                    <img class="imgcard2" src="./img/palacio.jpg" alt=">Foto del Palacio de los Condes de Santa Ana">
+                    <p class="textcard">El Palacio de los Condes de Santa Ana, ejemplo destacado de la arquitectura civil del siglo XVIII 
+                        en Lucena, construido entre 1730 y 1750, alberga actualmente el centro de interpretación de Lucena. Su llamativa 
+                        escalera de mármol, resaltando el color añil del estaño lucentino, y la bóveda atribuida a Francisco José Guerrero 
+                        y Pedro de Mena Gutiérrez son aspectos notables. La imagen de San Pedro y Jesús, también atribuida a Pedro de Mena, 
+                        se exhibe en el palacio. En la misma calle, la Iglesia de San Martín del siglo XVII presenta un impresionante retablo 
+                        mayor de Martín de los Reyes.
+                    </p>
+                    <p class="textl"><a class="loca" href="https://maps.app.goo.gl/uszMJ771oopAFnYV7">📍 Localización</a></p>
+                    
+                </div>
+
+            </div>
+
+            <div class="column50">
+                <div class="card">
+                    <h5 class="tcard">Castillo del Moral</h5>
+                    <img class="imgcard2" src="./img/castillo.jpg" alt=">Foto del Castillo del Moral">
+                    <p class="textcard">El Castillo del Moral, fortaleza almohade del siglo XII en Lucena, es ahora el Museo Arqueológico 
+                        y Etnológico. Monumento Nacional desde 1931, remodelado como Palacio de los Duques de Medinaceli, 
+                        su Torre del Homenaje fue prisión de Boaddil en 1483. El nombre proviene de una emorá con la representación 
+                        de una morera. Las salas ofrecen un recorrido histórico desde el paleolítico con destacado yacimiento arqueológico.
+                    </p>
+                    <p class="textl"><a class="loca" href="https://maps.app.goo.gl/jDzF2ey21WjZdxLH6">📍 Localización</a></p>
+                    
+                </div>
+
+            </div>
+            <!-- Maps de lucena-->
+            <div class="maps">
+                <h1 id="maps" class="titulo1">MAPS DE LUCENA</h1>
+              <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35850.257464914226!2d-4.492897057202062!3d37.41950124719164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d70ce974c2423%3A0x440c7613e1515361!2s14900%20Lucena%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2ses!4v1706701793047!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
 
         </section>
 
     </main>
+
+    <section class="column25s">
+        <h1 id="noticias" class="titulo2">NOTICIAS</h1>
+
+    </section>
     
 </body>
 </html>
