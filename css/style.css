@@ -66,12 +66,23 @@ body {
 .titulo2 {
     text-align: center;
     font-size: 3rem;
+    margin: 0%;
 }
 
 
 .gall {
     width: 100%;
-    display: block; /* quita el espacio que me pone entre las imagenes una debajo de otra. */
     padding: 2%;
+    display: block;
+}
+
+.titulo3 {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 5%;
+   
+}
+
+.card {
     
 }
